@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>C111 project</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    </head>
+<body>
+    <hr><h1>FACE RECOGNITION WEB-APP</h1><hr>
+    <br><section>
+        <h4>Mother</h4>
+        <br><hr>
+        <h4>Father</h4>
+        <br><hr>
+        <h4>Brother</h4>
+        <br><hr>
+        <h4>Me</h4>
+        <hr>
+    </section>
+    <h4>Webcam view:-</h4><center><div id="camera"></div></center>
+    <h4>Snapshot view:-</h4>
+    <center><div id="output"></div>  </center>
+    <br>
+    <center><button id="capb"onclick="captureimg()" class="btn btn-danger">Capture Image</button>
+    <br><br><br>
+    <button id="Idenb"onclick="Identify()" class="btn btn-success">Identify Image</button></center>
+    <hr>
+    <h4>The member is:</h4>
+    <h4>Accuracy:</h4>
+<script src="main.js"></script>
+</body>
+</html>

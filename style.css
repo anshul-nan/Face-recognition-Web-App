@@ -1,0 +1,16 @@
+body{
+    background-image:linear-gradient( to left,red 6%, pink 60%, yellow 90%,violet 100%);
+}
+
+#Idenb{
+    background-color:blue;
+    color:red;
+    border-radius:30px;
+    height:44px;
+}
+#capb{
+    background-color:blue;
+    color:red;
+    border-radius:30px;
+    height:44px;
+}
